@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-@Document(collection = "employees")
+@Document(collection = "Employees")
 public class Employee {
 
     @Id

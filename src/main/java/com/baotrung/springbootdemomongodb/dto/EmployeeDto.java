@@ -1,5 +1,8 @@
 package com.baotrung.springbootdemomongodb.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class EmployeeDto {
     private String _id;
     private Long totalSalary;
